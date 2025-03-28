@@ -24,4 +24,5 @@ jobs:
     - run: pip install -r requirements.txt
     - run: python src/main.py
     - uses: actions/upload-artifact@v4
-      path: docs/
+      with:
+        path: docs/
